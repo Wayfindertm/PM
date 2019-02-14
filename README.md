@@ -1,18 +1,23 @@
 # PM
-Javascript dynamic padding, margin, etc. by class name
-
+## Javascript dynamic padding, margin, etc. by class name
 Add css by class name
 
-Examples:
+## Examples:
 p-20 - padding: 20px
+
 pt-20 - padding-top: 20px
-...
 
+vh-sm-100 - for screen >= 540px height: 100vh
 
-Use: 
-var pm = new PM();
+## Use:
+```javascript
+var pm = new PM({
+  options...
+});
+```
 
-Default params:
+## Default options:
+```javascript
 items: {
   p: ['padding', 'px'],
   pt: ['padding-top', 'px'],
@@ -35,4 +40,5 @@ breakpoints: {
   md: 720,
   sm: 540
 }
+```
 
