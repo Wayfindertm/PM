@@ -13,7 +13,7 @@ vh-sm-100 - for screen >= 540px height: 100vh
 
 ## Use:
 ```javascript
-var pm = new PMHW({
+var pmvh = new PMHW({
   options...
 });
 ```
@@ -43,5 +43,12 @@ breakpoints: {
   sm: 540
 },
 cache: true
+```
+
+## Api:
+Reload styles
+```javascript
+var pmvh = new PMHW();
+pmvh.reload();
 ```
 
