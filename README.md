@@ -13,7 +13,7 @@ vh-sm-100 - for screen >= 540px height: 100vh
 
 ## Use:
 ```javascript
-var pm = new PM({
+var pm = new PMHW({
   options...
 });
 ```
