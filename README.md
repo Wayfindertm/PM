@@ -1,9 +1,11 @@
-# PM
+# PMHW
 ## Javascript dynamic padding, margin, etc. by class name
 Add css by class name
 
 ## Examples:
 p-20 - padding: 20px
+
+p-20-0 - padding: 20px 0px
 
 pt-20 - padding-top: 20px
 
@@ -19,18 +21,18 @@ var pm = new PM({
 ## Default options:
 ```javascript
 items: {
-  p: ['padding', 'px'],
+  p:  ['padding', 'px'],
   pt: ['padding-top', 'px'],
   pb: ['padding-bottom', 'px'],
   pl: ['padding-left', 'px'],
   pr: ['padding-right', 'px'],
-  m: ['margin', 'px'],
+  m:  ['margin', 'px'],
   mt: ['margin-top', 'px'],
   mb: ['margin-bottom', 'px'],
   ml: ['margin-left', 'px'],
   mr: ['margin-right', 'px'],
-  h: ['height', 'px'],
-  w: ['width', 'px'],
+  h:  ['height', 'px'],
+  w:  ['width', 'px'],
   vh: ['height', 'vh'],
   vw: ['width', 'vw'],
 },
@@ -39,6 +41,7 @@ breakpoints: {
   lg: 960,
   md: 720,
   sm: 540
-}
+},
+cache: true
 ```
 
