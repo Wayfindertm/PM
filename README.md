@@ -49,6 +49,6 @@ cache: true
 Reload styles
 ```javascript
 var pmhv = new PMHW();
-pmvh.reload();
+pmhv.reload();
 ```
 
